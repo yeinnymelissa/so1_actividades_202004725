@@ -1,0 +1,8 @@
+[Unit]
+Description=Servicio de saludo y fecha actividad 4
+
+[Service]
+ExecStart=/home/yeinny/Documents/GitHub/so1_actividades_202004725/actividad4/saludo.sh
+
+[Install]
+WantedBy=multi-user.target
